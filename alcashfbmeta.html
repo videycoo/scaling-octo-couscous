@@ -3,11 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>AMP Page</title>
-  <link rel="canonical" href="#">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://scaling-octo-couscous-red.vercel.app/alcashfbmeta.html">
+
+  <!-- Viewport -->
   <meta name="viewport" content="width=device-width,minimum-scale=1">
 
+  <!-- AMP JS -->
   <script async src="https://cdn.ampproject.org/v0.js"></script>
 
+  <!-- AMP Boilerplate -->
   <style amp-boilerplate>
     body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both}
     @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
@@ -18,36 +24,59 @@
     </style>
   </noscript>
 
+  <!-- ================= OPEN GRAPH (FACEBOOK) ================= -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AMP Page">
+  <meta property="og:description" content="Yeh AMP page Facebook image preview ke sath sahi tarah kaam kar raha hai.">
+  <meta property="og:url" content="https://scaling-octo-couscous-red.vercel.app/alcashfbmeta.html">
+
+  <!-- IMAGE (YOUR PROVIDED IMAGE) -->
+  <meta property="og:image" content="https://api.pirsch.io/theme/files/42124_favicon.jpg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://api.pirsch.io/theme/files/42124_favicon.jpg">
+
+  <!-- ================= AMP CUSTOM CSS ================= -->
   <style amp-custom>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background: #f4f4f4;
     }
     .container {
       padding: 20px;
+      background: #ffffff;
     }
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- IMAGE (Facebook) -->
+  <!-- MAIN IMAGE -->
   <amp-img
-    src="https://video.xx.fbcdn.net/v/t45.5328-9/615365875_1367327088028006_2300986262585424538_n.jpg"
-    width="1080"
-    height="564"
+    src="https://api.pirsch.io/theme/files/42124_favicon.jpg"
+    width="600"
+    height="600"
     layout="responsive"
-    alt="Facebook Image">
+    alt="Facebook Preview Image">
   </amp-img>
 
   <div class="container">
-    <h1>AMP Page Test</h1>
+    <h1>AMP Page</h1>
     <p>
-      Agar image load hoti hai to iska matlab Facebook ne abhi block nahi ki.
-      Agar blank aaye to Facebook CDN ne hotlink band kar di hai.
+      Is page me Facebook Open Graph image properly set hai.
+      Facebook Sharing Debugger me image preview sahi show hogi.
     </p>
   </div>
 
